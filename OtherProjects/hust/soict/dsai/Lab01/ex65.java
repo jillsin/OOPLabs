@@ -1,3 +1,4 @@
+package OtherProjects.hust.soict.dsai.Lab01;
 import java.util.Arrays;
 import java.util.Scanner;
 public class ex65{

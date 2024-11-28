@@ -1,3 +1,4 @@
+package OtherProjects.hust.soict.dsai.Lab01;
 import javax.swing.JOptionPane;
 public class ex61
 {
