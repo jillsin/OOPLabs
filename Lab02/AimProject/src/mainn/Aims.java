@@ -8,7 +8,7 @@ public class Aims {
 
         anOrder.addDigitalVideoDisc(dvd1);
         
-        DigitalVideoDisc dvd2= new DigitalVideoDisc("Star war","fightting,56);
+        DigitalVideoDisc dvd2= new DigitalVideoDisc("Star war","fightting",56);
         anOrder.addDigitalVideoDisc(dvd2);
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Spiderman","hero",112);
