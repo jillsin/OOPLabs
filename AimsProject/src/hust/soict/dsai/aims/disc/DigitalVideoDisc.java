@@ -1,4 +1,5 @@
-package mainn;
+package hust.soict.dsai.aims.disc;
+
 
 public class DigitalVideoDisc {
     private String title;

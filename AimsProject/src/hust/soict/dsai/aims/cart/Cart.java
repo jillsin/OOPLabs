@@ -1,6 +1,7 @@
-package mainn;
+package hust.soict.dsai.aims.cart;
 
 import java.util.ArrayList;
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
 public class Cart {
    
     private ArrayList<DigitalVideoDisc> itemsOrdered = new ArrayList<>();
