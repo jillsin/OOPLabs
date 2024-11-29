@@ -2,7 +2,8 @@ package hust.soict.dsai.garbage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-public class NoGarbage {   public static void main(String[] args) {
+public class NoGarbage {   
+        public static void main(String[] args) {
         String filename = "test.exe"; // Path to a large file
         byte[] inputBytes = { 0 };
         long startTime, endTime;
