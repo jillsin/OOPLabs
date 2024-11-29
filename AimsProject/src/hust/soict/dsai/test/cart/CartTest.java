@@ -20,9 +20,9 @@ public class CartTest {
         // Test the print method
         cart.print();
         // To-do: Test the search methods here
-        cart.searchBytitle("Aladin");
+        cart.searchBytitle("Star war");
         cart.searchBytitle("aladinn");
-        cart.searchById("1");
-        cart.searchById("100");
+        cart.searchById(1);
+        cart.searchById(100);
     }
 }
