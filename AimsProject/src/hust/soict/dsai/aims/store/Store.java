@@ -7,7 +7,7 @@ public class Store {
     private int itemCount;
 
     public Store() {
-        this.itemsInStore = new DigitalVideoDisc[100]; // Assume max capacity is 100 DVDs
+        this.itemsInStore = new DigitalVideoDisc[10];
         this.itemCount = 0;
     }
 
