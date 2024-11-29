@@ -1,4 +1,4 @@
-package OtherProjects.hust.soict.dsai.Lab01;
+package hust.soict.dsai.Lab01;
 
 import java.util.Scanner;
 

@@ -35,7 +35,7 @@ public class TestPassingParameter {
     //     float cost = o1.getCost();
 
     //     o1.setTitle(o2.getTitle());
-    //     o1.setCategory(o2.getCategory());
+    //     o1.setCategory(o2.getCnategory());
     //     o1.setLength(o2.getLength());
     //     o1.setDirector(o2.getDirector());
     //     o1.setCost(o2.getCost());
