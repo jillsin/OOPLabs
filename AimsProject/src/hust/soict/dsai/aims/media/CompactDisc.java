@@ -1,10 +1,11 @@
 package hust.soict.dsai.aims.media;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.List;
 public class CompactDisc extends Disc implements Playable {
      private String artist;
-    private ArrayList<Track> tracks;
-    
+     private List<Track> tracks = new ArrayList<Track> ();
+     
    public CompactDisc(String artist, String category, float cost, String artist1) {
 		this.artist = artist;
 	}
@@ -12,7 +13,10 @@ public class CompactDisc extends Disc implements Playable {
 		super(new Random().nextInt(1_000_000) + 1, title, category, cost, director, 0);
 		this.artist = artist;
 	}
-	public String getArtist() {
+	public CompactDisc(String artist) {
+        this.artist=artist;
+    }
+    public String getArtist() {
 		return artist;
 	}
 

@@ -3,7 +3,7 @@ package hust.soict.dsai.aims.media;
 import java.util.Comparator;
 import java.util.Random;
 
-public abstract class Media {
+public abstract class Media implements Comparable<Media> {
 	private static int id_counter = 0;
     private int id;
 	private String title;
@@ -67,4 +67,13 @@ public abstract class Media {
 	public static Comparator<Media> getCompareByTitleCost() {
 		return COMPARE_BY_TITLE_COST;
 	}
+	@Override
+    public int compareTo(Media other) {
+        int titleComparison = this.title.compareTo(other.title);
+        if (titleComparison != 0) {
+            return titleComparison;
+        }
+        // If titles are the same, compare by cost (higher cost first)
+        return Double.compare(other.cost, this.cost);
+    }
 }

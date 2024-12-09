@@ -25,9 +25,5 @@ public class Disc extends Media {
 	public String toString() {
 		return "Disc" + "-" + this.getTitle() + "-" + this.getCategory() + "-" + this.getDirector() + "-" + String.valueOf(this.getLength()) + ": " + String.valueOf(this.getCost()) + "$";
 	}
-	public int compareTo(Media other) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
-	};
 
 }
